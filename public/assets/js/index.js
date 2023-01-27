@@ -52,6 +52,7 @@ const deleteNote = (id) =>
 
 const renderActiveNote = () => {
   hide(saveNoteBtn);
+  console.log("render active note");
 
   if (activeNote.id) {
     noteTitle.setAttribute('readonly', true);
@@ -99,6 +100,7 @@ const handleNoteDelete = (e) => {
 const handleNoteView = (e) => {
   e.preventDefault();
   activeNote = JSON.parse(e.target.parentElement.getAttribute('data-note'));
+  console.log(activeNote);
   renderActiveNote();
 };
 
