@@ -16,6 +16,10 @@ Run the command `npm i` to install dependencies.
 
 Run the command `npm start` to run the server. In the case that it is your local server, navigate to http://localhost:3001. From there, you are able to use the application. 
 
+
+The application is also deployed to heroku and can be accessed here:
+https://blooming-coast-97300.herokuapp.com/ 
+
 Screenshots are in the assets folder.
 =
     `
